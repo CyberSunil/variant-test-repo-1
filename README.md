@@ -1,28 +1,7 @@
 # Variant Test Repo 1
 
-This repository contains test content for the GitHub connector variant.
+Staging deployment repository.
 
-## Main Application
-
-```python
-def main():
-    print("Hello from variant test repo 1")
-    
-if __name__ == "__main__":
-    main()
-```
-
-## Configuration
-
-```yaml
-name: variant-test-1
-version: 1.0.0
-environment: test
-```
-
-## API Documentation
-
-The API exposes the following endpoints:
-- GET /api/v1/users
-- POST /api/v1/auth
-- GET /api/v1/repos
+## Review process
+The deployment review checklist lives in `deployment-notes.md`. Follow the checklist
+and the review tracking procedure described there when performing a deployment review.
